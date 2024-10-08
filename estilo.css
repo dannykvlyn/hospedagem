@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.flex-container {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+}
+
+.planos {
+    text-align: center;
+    padding: 20px;
+}
+
+.planos h1 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.planos p {
+    font-size: 19px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+.opções {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px 4px grey;
+    width: 250px;
+    text-align: center;
+}
+
+
+.título {
+    background-color: #333333;
+    color: white;
+    font-size: 19px;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.preço {
+    background-color: #26a7d1;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.preço span {
+    font-size: 12px;
+    color: white;
+}
+
+.detalhes {
+    border-radius: 0 0 10px 10px;
+    background-color: #CCCCCC;
+}
+
+.detalhes p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.detalhes span {
+    color: #6B6869;
+    font-size: 15px;
+}
+
+.detalhes ul {
+    padding-left: 50px;
+    text-align: left;
+    font-size: 12px;
+    color: #333333;
+
+}
+
+.detalhes ul li {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.botao img {
+    display: block;
+    width: 100%;
+
+}
+
+.botao {
+    display: inline-block;
+    padding: 0%;
+    background-color: transparent;
+    width: 150px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+
+}
